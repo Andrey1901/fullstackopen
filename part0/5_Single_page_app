@@ -1,0 +1,10 @@
+browser->server: HTTP POST ttps://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over browser:
+browser executes the event handler
+that add new note to the list and 
+send the information about new note 
+to the serve
+end note
+
+server --> browser:  HTTP server response 201
+
